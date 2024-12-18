@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Nicestart</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="email">Email</string>
+    <string name="profile_profile">Profile</string>
+    <string name="garciatomaschavez">\@garciatomaschavez</string>
+    <string name="fpgs_gtc_gmail_com">fpgs.gtc@gmail.com</string>
+    <string name="profile_this_page_is_still_w_i_p">This page is still W.I.P.</string>
+    <string name="log_out">Log Out</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="cancel">Cancel</string>
 </resources>

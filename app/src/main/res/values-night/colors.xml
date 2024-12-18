@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FFFFFFFF</color> <!-- Changed to white -->
+    <color name="white">#FF000000</color> <!-- Changed to black -->
+    <color name="Timberwolf">#FF2A2A34</color> <!-- Adjusted to a dark desaturated tone -->
+    <color name="Sage">#FF52644F</color> <!-- A darker greenish shade -->
+    <color name="Fern_green">#FF8CBF8B</color> <!-- A muted green for better visibility -->
+    <color name="Hunter_green">#FF647C62</color> <!-- Darker, slightly softened green -->
+    <color name="Brunswick_green">#FF556A64</color> <!-- Slightly lighter for a balanced dark green -->
+    <color name="transparent">#00FFFFFF</color> <!-- Transparency remains unchanged -->
+</resources>

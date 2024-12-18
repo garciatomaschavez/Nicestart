@@ -46,7 +46,7 @@
             android:layout_height="match_parent"
             android:alpha="0.6"
             android:background="@color/white"
-            android:hint="Username">
+            android:hint="@string/username">
 
         </EditText>
 
@@ -69,7 +69,7 @@
             android:layout_height="match_parent"
             android:alpha="0.6"
             android:background="@color/white"
-            android:hint="Password"
+            android:hint="@string/password"
             android:inputType="textPassword">
 
         </EditText>
@@ -80,7 +80,7 @@
         android:id="@+id/button_login"
         style="@style/buttonFlat"
         android:onClick="openMain"
-        android:text="Login"
+        android:text="@string/login"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginTop="24dp"
@@ -93,7 +93,7 @@
         android:id="@+id/button_signup"
         style="@style/buttonFlatOutlinedAlt"
         android:onClick="openSignup"
-        android:text="Sign up"
+        android:text="@string/sign_up"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginTop="12dp"

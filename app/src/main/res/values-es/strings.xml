@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nicestart</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Registrar</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="profile_profile">Perfil</string>
+    <string name="garciatomaschavez">\@garciatomaschavez</string>
+    <string name="fpgs_gtc_gmail_com">fpgs.gtc@gmail.com</string>
+    <string name="profile_this_page_is_still_w_i_p">Esta página aun está en progreso</string>
+    <string name="log_out">Salir</string>
+    <string name="confirm_password">Confirmar Contraseña</string>
+    <string name="cancel">Cancelar</string>
+</resources>

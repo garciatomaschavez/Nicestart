@@ -62,7 +62,7 @@
                 android:layout_height="match_parent"
                 android:alpha="0.6"
                 android:background="@color/white"
-                android:hint="Username"/>
+                android:hint="@string/username"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -82,7 +82,7 @@
                 android:layout_height="match_parent"
                 android:alpha="0.6"
                 android:background="@color/white"
-                android:hint="Email"
+                android:hint="@string/email"
                 android:inputType="textEmailAddress"/>
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -110,7 +110,7 @@
             android:layout_height="60dp"
             android:layout_weight="1"
             android:onClick="openMain"
-            android:text="Login"/>
+            android:text="@string/login"/>
 
         <Button
             android:id="@+id/button_cancel"
@@ -119,7 +119,7 @@
             android:layout_height="60dp"
             android:layout_weight="1"
             android:onClick="openSignup"
-            android:text="Sign Up"/>
+            android:text="@string/sign_up"/>
     </LinearLayout>
 
     <androidx.constraintlayout.widget.Guideline
