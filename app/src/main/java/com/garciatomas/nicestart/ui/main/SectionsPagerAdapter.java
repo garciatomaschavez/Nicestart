@@ -6,6 +6,11 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
+import com.garciatomas.nicestart.fragments.Page1;
+import com.garciatomas.nicestart.fragments.Page2;
+import com.garciatomas.nicestart.fragments.Page3;
+import com.garciatomas.nicestart.fragments.Page4;
+
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     //    @StringRes

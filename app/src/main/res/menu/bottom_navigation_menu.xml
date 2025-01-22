@@ -3,45 +3,52 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/item2"
+        android:id="@+id/item1"
         android:title="Settings"
         android:icon="@drawable/usericon"
-        app:showAsAction="ifRoom" />
+        android:contentDescription="none"
+        app:showAsAction="always" />
 
     <item
-        android:id="@+id/item1"
+        android:id="@+id/item2"
         android:title="Copy"
         android:icon="@drawable/passwordicon"
-        app:showAsAction="ifRoom">
+        android:contentDescription="none"
+        app:showAsAction="always" />
 
-        <menu>
+<!--        <menu>-->
 
-            <item
-                android:id="@+id/item3"
-                android:title="Bottom app bar"
-                app:showAsAction="never" />
+<!--            <item-->
+<!--                android:id="@+id/item3"-->
+<!--                android:title="Bottom app bar"-->
+<!--                app:showAsAction="never" />-->
 
-            <item
-                android:id="@+id/item4"
-                android:title="Bottom navigation"
-                app:showAsAction="never" />
+<!--            <item-->
+<!--                android:id="@+id/item4"-->
+<!--                android:title="Bottom navigation"-->
+<!--                app:showAsAction="never" />-->
 
 
-            <item
-                android:id="@+id/item5"
-                android:title="Signout"
-                app:showAsAction="never"
-                android:icon="@drawable/ic_door"/>
+<!--            <item-->
+<!--                android:id="@+id/item5"-->
+<!--                android:title="Signout"-->
+<!--                app:showAsAction="never"-->
+<!--                android:icon="@drawable/ic_door"/>-->
 
-        </menu>
-
-    </item>
+<!--        </menu>-->
 
     <item
-        android:id="@+id/item6"
+        android:id="@+id/item3"
+        android:title="test"
+        android:icon="@drawable/outline_check_24"
+    android:contentDescription="none"
+    app:showAsAction="always" />
+
+    <item
+        android:id="@+id/item4"
         android:title="Checkmark"
         android:icon="@drawable/outline_check_24"
-        app:showAsAction="ifRoom"
-    />
+    android:contentDescription="none"
+    app:showAsAction="always" />
 
 </menu>
