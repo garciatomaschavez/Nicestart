@@ -108,7 +108,7 @@ public class MainBn extends AppCompatActivity {
 //        here we listen to viewpager moves and set navigations items checked or not
 
 
-        /*
+
         viewPager1.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
@@ -132,7 +132,7 @@ public class MainBn extends AppCompatActivity {
             }
         });
 
-         */
+
 
     }
 
