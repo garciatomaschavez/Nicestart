@@ -36,20 +36,42 @@ This project consists of the basic structures for an Andriod app written in Java
 
 Below are some screenshots that show you a quick view of how the application looks:
 
-### Login views
-<img src="img/login.png" alt="drawing" style="width:50%;"/>
-<img src="img/login_landscape.png" alt="drawing" style="width:100%;"/>
+<details>
+  <summary>Login views</summary>
+  <img src="img/login.png" alt="drawing" style="width:50%;"/>
+  <img src="img/login_landscape.png" alt="drawing" style="width:100%;"/>
+</details>
 
-### Signup views
+<details>
+  <summary>Login views</summary>
+  <img src="img/login.png" alt="drawing" style="width:50%;"/>
+  <img src="img/login_landscape.png" alt="drawing" style="width:100%;"/>
+</details>
+
+<details>
+  <summary>Signup views</summary>
 <img src="img/signup.png" alt="drawing" style="width:50%;"/>
 <img src="img/signup_landscape.png" alt="drawing" style="width:100%;"/>
+</details>
 
-### Main view
-<img src="img/main.png" alt="drawing" style="width:50%;"/>
+<details>
+  <summary>Main view</summary>
+  <img src="img/main.png" alt="drawing" style="width:50%;"/>
+</details>
+
+<details>
+  <summary>Bottom App bar view</summary>
+  <img src="img/bottom_app_bar.png" alt="drawing" style="width:50%;"/>
+</details>
+
+<details>
+  <summary>Bottom navigation view</summary>
+  <img src="img/bottom_navigation.png" alt="drawing" style="width:50%;"/>
+</details>
 
 ## Theme
 
-This project uses a mainly green-tinted theme. Here are the colors below:
+This project uses a mainly green-tinted theme, both for day and night theming. Here are the colors below:
 
 <img src="https://placehold.co/10x10/dad7cd/dad7cd"/> #dad7cd <br>
 <img src="https://placehold.co/10x10/a3b18a/a3b18a"/> #a3b18a <br>
@@ -57,11 +79,20 @@ This project uses a mainly green-tinted theme. Here are the colors below:
 <img src="https://placehold.co/10x10/3a5a40/3a5a40"/> #3a5a40 <br>
 <img src="https://placehold.co/10x10/344e41/344e41"/> #344e41 <br>
 
+The themeing automatically adapts if the device is using the light or dark theme:
+
+<details>
+  <summary>Day & Night themeing</summary>
+  <img src="img/login.png" alt="drawing" style="width:50%;"/>
+  <img src="img/login_dark.png" alt="drawing" style="width:50%;"/>
+</details>
+
 <!-- ROADMAP -->
 ## Roadmap
 
 - [x] Set up basic strucutre for Login and Signup views
-- [ ] Work on the Main view
+- [x] Work on the Main view
+- [x] Add full coverage of the spanish locale.
 - [ ] Connect to a DB to properly register users.
 
 See the [open issues](https://github.com/garciatomaschavez/nicestart/issues) for a full list of proposed features (and known issues).
