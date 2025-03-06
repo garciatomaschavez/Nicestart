@@ -31,10 +31,10 @@
 
 This project consists of the basic structures for an Andriod app written in Java. It contains a login view, sign up view and a Main view. It was created for the subject "Desarrollo de Interfaces" during the school year of 2024/2025
 
-<!-- GETTING STARTED -->
-## About the project
+<!-- SCREENSHOT PREVIEWS -->
+## Preview
 
-Below are some screenshots that show you a quick view of how the application looks:
+Below are some screenshots that show you a quick view of how the application looks (click to show the images):
 
 <details>
   <summary>Login views</summary>
@@ -69,6 +69,7 @@ Below are some screenshots that show you a quick view of how the application loo
   <img src="img/bottom_navigation.png" alt="drawing" style="width:50%;"/>
 </details>
 
+<!-- THEME -->
 ## Theme
 
 This project uses a mainly green-tinted theme, both for day and night theming. Here are the colors below:
