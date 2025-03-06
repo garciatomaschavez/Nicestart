@@ -14,4 +14,21 @@
     <string name="cancel">Cancel</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fancy_a_snack_while_you_refresh">Fancy a Snack while you refresh?</string>
+    <string name="action_is_restored">Action is restored!</string>
+    <string name="undo">UNDO</string>
+    <string name="item_copiado">ITEM COPIADO</string>
+    <string name="dowload_item">DOWLOAD ITEM</string>
+    <string name="infecting">Infecting</string>
+    <string name="fixing">Fixing</string>
+    <string name="where_do_you_go">Where do you go?</string>
+    <string name="achtung">Achtung!</string>
+    <string name="beginning_search">Beginning search</string>
+    <string name="added_to_favourites">Added to favourites</string>
+    <string name="menu_clicked">Menu clicked</string>
+    <string name="fab_clicked">FAB Clicked</string>
+    <string name="this_is_page_1">This is page 1!</string>
+    <string name="this_is_page_2">This is page 2!</string>
+    <string name="this_is_page_3">This is page 3!</string>
+    <string name="this_is_page_4">This is page 4!</string>
 </resources>

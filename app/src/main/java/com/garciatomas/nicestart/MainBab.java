@@ -41,7 +41,7 @@ public class MainBab extends AppCompatActivity {
         myfab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainBab.this, "FAB Clicked", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainBab.this, R.string.fab_clicked, Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -49,7 +49,7 @@ public class MainBab extends AppCompatActivity {
         bottomAppBar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainBab.this, "Menu clicked", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainBab.this, R.string.menu_clicked, Toast.LENGTH_SHORT).show();
 //                sheetBehavior = BottomSheetBehavior.from(sheet);
             }
 
@@ -61,10 +61,10 @@ public class MainBab extends AppCompatActivity {
             @Override
             public boolean onMenuItemClick(MenuItem item) {
                 if (R.id.heart == item.getItemId()) {
-                    Toast.makeText(MainBab.this, "Added to favourites", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainBab.this, R.string.added_to_favourites, Toast.LENGTH_SHORT).show();
                 }
                 if (R.id.search == item.getItemId()) {
-                    Toast.makeText(MainBab.this, "Beginning search", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainBab.this, R.string.beginning_search, Toast.LENGTH_SHORT).show();
                 }
 
 //                switch (item.getItemId()) {

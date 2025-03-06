@@ -3,7 +3,7 @@
     <string name="app_name">Nicestart</string>
     <string name="username">Nombre de usuario</string>
     <string name="password">Contraseña</string>
-    <string name="login">Login</string>
+    <string name="login">Iniciar sesión</string>
     <string name="sign_up">Registrar</string>
     <string name="email">Correo Electrónico</string>
     <string name="profile_profile">Perfil</string>
@@ -13,4 +13,22 @@
     <string name="log_out">Salir</string>
     <string name="confirm_password">Confirmar Contraseña</string>
     <string name="cancel">Cancelar</string>
+    <string name="fancy_a_snack_while_you_refresh">¿Le apetece un tentempié mientras se refresca?</string>
+    <string name="action_is_restored">Se ha restablecido la acción!</string>
+    <string name="undo">DESHACER</string>
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+    <string name="item_copiado">ITEM COPIADO</string>
+    <string name="dowload_item">DOWLOAD ITEM</string>
+    <string name="infecting">Infectando</string>
+    <string name="fixing">Arreglando</string>
+    <string name="where_do_you_go">A donde vas?</string>
+    <string name="achtung">Achús!</string>
+    <string name="beginning_search">Empezando busqueda</string>
+    <string name="added_to_favourites">Añadido a favoritos</string>
+    <string name="menu_clicked">Menu clickado</string>
+    <string name="fab_clicked">FAB se ha clickado</string>
+    <string name="this_is_page_1">Esta es la página 1!</string>
+    <string name="this_is_page_2">Esta es la página 2!</string>
+    <string name="this_is_page_3">Esta es la página 3!</string>
+    <string name="this_is_page_4">Esta es la página 4!</string>
 </resources>

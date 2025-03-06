@@ -68,8 +68,8 @@ public class Main extends AppCompatActivity {
         MaterialAlertDialogBuilder builder = new MaterialAlertDialogBuilder(this);
 
 //        //el dialogo estandar tiene título/icono pero podemos sustituirlo por un XML a medida
-        builder.setTitle("Achtung!");
-        builder.setMessage("Where do you go?");
+        builder.setTitle(R.string.achtung);
+        builder.setMessage(R.string.where_do_you_go);
         builder.setIcon(R.drawable.usericon);
         builder.setCancelable(false);
 
@@ -77,7 +77,7 @@ public class Main extends AppCompatActivity {
 //        builder.setView(getLayoutInflater().inflate(R.layout.alertdialog_view, null));
 
         // Positive
-        builder.setPositiveButton("Log out", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton(R.string.log_out, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 // do something like...
@@ -100,7 +100,7 @@ public class Main extends AppCompatActivity {
         });
 
         // Neutral
-        builder.setNeutralButton("Cancel", new DialogInterface.OnClickListener() {
+        builder.setNeutralButton(R.string.cancel, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 // do something like...
@@ -132,11 +132,11 @@ public class Main extends AppCompatActivity {
             final ConstraintLayout mLayout = findViewById(R.id.main);
 
             Snackbar snackbar = Snackbar
-                    .make(mLayout, "Fancy a Snack while you refresh?", Snackbar.LENGTH_LONG)
-                            .setAction("UNDO", new View.OnClickListener() {
+                    .make(mLayout, R.string.fancy_a_snack_while_you_refresh, Snackbar.LENGTH_LONG)
+                            .setAction(R.string.undo, new View.OnClickListener() {
                                 @Override
                                 public void onClick(View view) {
-                                    Snackbar snackbar1 = Snackbar.make(mLayout, "Action is restored!", Snackbar.LENGTH_SHORT);
+                                    Snackbar snackbar1 = Snackbar.make(mLayout, R.string.action_is_restored, Snackbar.LENGTH_SHORT);
                                     snackbar1.show();
                                 }
                             });
@@ -161,12 +161,12 @@ public class Main extends AppCompatActivity {
     {
         int id=item.getItemId();
         if (id==R.id.item1) {
-            Toast.makeText(this, "ITEM COPIADO", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.item_copiado, Toast.LENGTH_SHORT).show();
             return true;
         }
         else if( id==R.id.item2)
         {
-            Toast.makeText(this, "DOWLOAD ITEM", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.dowload_item, Toast.LENGTH_SHORT).show();
             return true;
         }
         else
@@ -186,23 +186,23 @@ public class Main extends AppCompatActivity {
         int id=item.getItemId();//numero segun orden de creacion en xml
         if(id==R.id.item1)
         {
-            Toast.makeText(this, "Infecting", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.infecting, Toast.LENGTH_SHORT).show();
         }
         if(id==R.id.item2)
         {
-            Toast.makeText(this, "Fixing", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.fixing, Toast.LENGTH_SHORT).show();
             Intent intent=new Intent(this, Profile.class);
             startActivity(intent);
 
         }
         if (id == R.id.item3) {
-//            Intent intent = new Intent(Main.this, MainBab.class);
-//            startActivity(intent);
+            Intent intent = new Intent(Main.this, MainBab.class);
+            startActivity(intent);
         }
 
         if (id == R.id.item4) {
-//            Intent intent = new Intent(this, MainBn.class);
-//            startActivity(intent);
+            Intent intent = new Intent(this, MainBn.class);
+            startActivity(intent);
         }
 
         if (id == R.id.item5) {
